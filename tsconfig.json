@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    // ...他の設定
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+    // ...
+  }
+}

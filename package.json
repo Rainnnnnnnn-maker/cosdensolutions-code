@@ -1,0 +1,21 @@
+{
+  "name": "cosdensolutions-code",
+  "version": "1.0.0",
+  "description": "Welcome to the official Cosden Solutions code repository! May it serve you well on your journey towards mastering React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  }
+}
