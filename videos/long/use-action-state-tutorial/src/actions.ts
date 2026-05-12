@@ -1,6 +1,19 @@
 "use server";
 
-export async function action(prevState: any, formData: FormData) {
+export type ActionState = {
+  success: boolean;
+  message: string;
+};
+
+export const initialState: ActionState = {
+  success: false,
+  message: "",
+};
+
+export async function action(
+  prevState: ActionState,
+  formData: FormData
+): Promise<ActionState> {
   await new Promise((resolve) => setTimeout(resolve, 1000));
 
   const username = formData.get("username") as string;
